@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="cine">
+		<class>com.demo.cine.Administrador</class>
+		<class>com.demo.cine.AgendarPelicula</class>
+		<class>com.demo.cine.Ciudad</class>
+		<class>com.demo.cine.Cliente</class>
+		<class>com.demo.cine.Genero</class>
+		<class>com.demo.cine.GeneroPelicula</class>
+		<class>com.demo.cine.Pelicula</class>
+		<class>com.demo.cine.PeliculaSucursal</class>
+		<class>com.demo.cine.ReservaSilla</class>
+		<class>com.demo.cine.ReservarPelicula</class>
+		<class>com.demo.cine.Sala</class>
+		<class>com.demo.cine.SalaSilla</class>
+		<class>com.demo.cine.Silla</class>
+		<class>com.demo.cine.Sucursal</class>
+	</persistence-unit>
+</persistence>
